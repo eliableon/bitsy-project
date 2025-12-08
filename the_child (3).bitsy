@@ -1,0 +1,1035 @@
+The Child
+
+# BITSY VERSION 8.14
+
+! VER_MAJ 8
+! VER_MIN 14
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+164,151,160
+57,66,98
+204,255,211
+NAME blueprint
+
+PAL 1
+164,151,160
+68,16,96
+204,255,211
+
+ROOM 0
+a,a,a,a,a,a,e,a,a,a,a,a,a,a,a,a
+a,a,a,a,0,0,e,e,0,0,0,0,a,a,a,a
+a,a,a,0,0,0,e,e,0,0,0,0,0,a,a,a
+a,a,0,0,0,0,e,e,0,0,0,0,0,0,a,a
+a,0,0,0,0,0,e,e,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,e,e,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,e,e,0,0,0,0,0,0,0,a
+a,a,0,0,0,0,e,e,0,0,0,0,0,0,a,a
+a,a,a,0,0,0,e,e,0,0,0,0,0,a,a,a
+a,a,a,a,0,0,e,e,0,0,0,0,a,a,a,a
+a,a,a,a,a,a,a,f,a,a,a,a,a,a,a,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME SPAWN
+ITM 7 1,11
+ITM 5 12,12
+ITM 4 13,15
+ITM 3 3,15
+EXT 7,9 1 6,1 DLG g
+EXT 7,9 1 6,0
+EXT 6,0 4 6,15 FX tunnel DLG l
+EXT 7,10 1 6,0
+EXT 7,0 4 7,15
+PAL 1
+TUNE 4
+
+ROOM 1
+a,a,a,a,a,a,f,a,a,a,a,a,a,a,a,a
+a,g,g,g,g,g,0,g,g,g,g,g,g,g,g,a
+a,g,0,0,0,0,0,g,g,0,0,0,0,g,g,a
+a,g,g,g,d,0,0,g,g,0,0,0,0,0,g,a
+a,g,0,0,0,0,0,g,g,0,0,0,0,0,g,a
+a,g,0,0,0,0,0,g,g,g,0,0,g,g,g,a
+f,0,0,0,0,0,0,g,g,g,0,0,g,g,g,a
+a,g,0,0,0,0,0,0,0,0,0,0,0,0,g,a
+a,g,0,0,0,0,0,0,0,0,0,0,0,0,g,a
+a,g,0,0,0,g,g,g,g,g,0,0,0,g,g,a
+a,g,0,0,0,g,0,0,0,0,0,0,0,0,g,a
+a,g,g,0,0,g,0,0,0,0,0,0,0,0,g,a
+a,g,0,0,0,g,0,0,0,0,0,0,0,0,g,a
+a,g,0,0,0,g,0,0,0,0,0,0,0,g,g,a
+a,g,g,g,g,g,g,g,g,g,g,g,g,g,g,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME ENTRANCE
+ITM 0 10,3
+ITM d 6,13
+ITM e 7,13
+ITM f 8,13
+ITM g 9,13
+ITM h 10,13
+EXT 6,1 0 7,9 DLG h
+EXT 6,0 0 7,9
+EXT 0,6 2 15,9
+EXT 1,6 2 14,9 DLG j
+EXT 6,0 0 7,10
+PAL 0
+TUNE 5
+
+ROOM 2
+g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g
+0,0,0,0,0,g,0,0,0,0,0,0,c,c,c,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,c,c,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,c,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+a,a,a,0,0,f,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,f
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,0,0,0,0,0,0,0,0,0,g
+0,0,0,0,0,g,h,h,h,h,h,h,h,h,h,g
+0,0,0,0,0,g,h,h,h,h,h,h,h,h,h,g
+g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g
+NAME finding
+ITM 6 11,3
+EXT 15,9 1 0,6
+EXT 14,9 1 1,6 DLG i
+EXT 6,6 3 4,6 DLG f
+PAL 0
+TUNE 5
+
+ROOM 3
+g,g,g,g,g,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,i,i,i,i,i,i,i,i,i,i
+g,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,i,i,i,i,i,i,i,i,i,i
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,i,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,i,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,0,0,0,0,g,0,0,0,0,0,0,0,0,0,0
+g,g,g,g,g,g,0,0,0,0,0,0,0,0,0,0
+NAME FOUND
+ITM i 1,6
+EXT 15,6 4 6,15
+END w 15,6
+PAL 0
+TUNE 4
+
+ROOM 4
+0,c,c,0,0,b,e,a,b,c,0,0,0,0,0,0
+a,0,c,c,0,b,e,e,b,c,c,0,0,d,0,0
+0,0,0,c,c,b,e,e,b,0,c,c,0,0,0,0
+0,d,0,0,c,b,e,e,b,0,0,c,c,0,0,0
+0,0,0,0,0,b,e,e,b,0,0,0,c,c,0,0
+0,0,0,0,0,b,e,e,b,0,0,0,0,c,c,0
+0,0,0,0,0,b,e,e,b,c,0,0,0,0,c,c
+c,0,0,0,0,b,e,e,b,c,c,0,0,d,0,c
+c,c,0,0,0,b,e,e,b,0,c,c,0,a,0,0
+0,c,c,0,0,b,e,e,b,0,0,c,c,0,0,0
+0,0,c,0,0,b,e,e,b,0,0,0,c,c,0,0
+0,0,c,c,0,b,e,e,b,0,0,0,0,c,c,0
+0,0,0,c,c,b,e,e,b,0,0,0,0,0,c,c
+0,d,0,0,c,b,e,e,b,0,0,0,0,0,a,0
+0,0,0,0,0,b,e,e,b,0,0,0,0,0,0,0
+0,0,a,0,0,b,0,a,b,c,0,0,d,0,0,0
+NAME Extra travel room
+EXT 6,15 0 6,0 FX tunnel DLG k
+EXT 6,0 5 6,15 DLG o
+EXT 7,15 0 7,0
+EXT 7,0 5 7,15
+PAL 1
+TUNE 4
+
+ROOM 5
+0,0,0,0,0,b,e,e,b,0,0,0,0,0,0,0
+0,d,0,d,0,b,e,e,b,0,0,d,0,d,d,0
+0,d,d,d,0,b,e,e,b,0,0,0,0,0,0,0
+0,0,0,0,0,b,e,e,b,0,0,0,0,0,0,0
+h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h
+h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h
+h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h
+0,0,0,0,0,b,e,e,b,0,0,0,0,0,0,0
+0,0,0,0,0,b,e,e,b,0,0,0,0,0,0,0
+0,d,d,0,0,b,e,e,b,0,0,d,d,d,d,0
+0,d,d,0,0,b,e,e,b,0,0,d,0,0,d,0
+0,d,d,0,0,b,e,e,b,0,0,d,0,0,d,0
+0,d,0,0,0,b,e,e,b,0,0,d,d,d,d,0
+0,d,d,0,0,b,e,e,b,0,0,d,d,0,d,0
+0,d,d,0,0,b,e,e,b,0,0,0,0,0,0,0
+0,0,0,0,0,b,e,a,b,0,0,0,0,0,0,0
+NAME fruit shop
+ITM 5 12,10
+ITM 7 13,10
+ITM c 2,12
+ITM b 13,13
+ITM 9 2,1
+ITM 6 12,1
+ITM 4 13,11
+ITM 3 12,11
+EXT 6,15 4 6,0 DLG n
+EXT 7,15 4 7,0
+PAL 1
+TUNE 4
+
+TIL a
+00000000
+00000000
+00111100
+00111100
+00111100
+00111100
+00000000
+00000000
+NAME block
+WAL true
+
+TIL b
+01100110
+01100110
+01100110
+01100110
+01100110
+01100110
+01100110
+01100110
+NAME enter building entrance
+WAL true
+
+TIL c
+11110000
+11111000
+11111100
+01111110
+00111111
+00011111
+00001111
+00000111
+NAME floor
+
+TIL d
+11111111
+11111111
+01000010
+01000010
+11111111
+10000001
+10000001
+11111111
+NAME food cart
+WAL true
+
+TIL e
+11101110
+11101110
+11111110
+11101110
+11101110
+11111110
+11101110
+11101110
+>
+01110111
+01110111
+01111111
+01110111
+01110111
+01111111
+01110111
+01110111
+NAME walk path
+WAL false
+
+TIL f
+11111111
+11111111
+11000001
+11001111
+11001011
+11001111
+11000001
+11111111
+
+TIL g
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+WAL true
+
+TIL h
+11111111
+11111111
+00000000
+11111111
+11111111
+00000000
+11111111
+11111111
+NAME sidewalk
+
+TIL i
+11111111
+11111111
+00000000
+11111111
+11111111
+00000000
+11111111
+11111111
+NAME wall version
+WAL true
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+POS 0 6,2
+
+SPR a
+00000000
+00000000
+01010001
+01110001
+01110010
+01101100
+00111100
+00100100
+NAME cat
+DLG 0
+BLIP 1
+
+SPR b
+00001100
+00001100
+00111110
+00111110
+01111111
+01111111
+01010101
+01010101
+>
+00011000
+00011000
+01111100
+01111100
+11111110
+11111110
+10101010
+10101010
+NAME helper 1
+DLG 3
+POS 0 10,5
+
+SPR c
+00011000
+00100100
+00100100
+00111100
+01111110
+10111101
+00011000
+00011000
+NAME SOILDER
+DLG 6
+POS 1 4,3
+
+SPR d
+00100000
+01010000
+01010000
+11111000
+01110100
+01110010
+01010000
+01010000
+NAME maca Chara
+DLG t
+POS 2 6,9
+
+SPR e
+00000000
+00100100
+01100110
+01111110
+01011010
+01111110
+01100110
+00111100
+
+SPR f
+00100000
+01010000
+01010000
+11111000
+01110100
+01110010
+01010000
+01010000
+NAME meil CHara
+DLG s
+POS 2 6,7
+
+SPR g
+00100000
+01010000
+01010000
+11111000
+01110100
+01110010
+01010000
+01010000
+NAME straw chara
+DLG r
+POS 2 6,5
+
+SPR h
+00100000
+01010000
+01010000
+11111000
+01110100
+01110010
+01010000
+01010000
+NAME Frog Chara
+DLG q
+POS 2 6,3
+
+SPR i
+00001100
+00001100
+00111110
+00111110
+01111111
+01111111
+01010101
+01010101
+>
+00011000
+00011000
+01111100
+01111100
+11111110
+11111110
+10101010
+10101010
+NAME helper 2
+DLG v
+POS 1 8,11
+
+SPR j
+00001100
+00001100
+00111110
+00111110
+01111111
+01111111
+01010101
+01010101
+>
+00011000
+00011000
+01111100
+01111100
+11111110
+11111110
+10101010
+10101010
+NAME helper 3
+DLG p
+POS 2 12,9
+
+SPR k
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+00000000
+NAME tea
+DLG 10
+POS 1 11,3
+
+ITM 0
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+00000000
+NAME tea
+DLG 4
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+BLIP 2
+
+ITM 3
+00001000
+00010000
+01111100
+11111110
+11111110
+11111110
+11111110
+01111100
+NAME MAYLOONRUN
+DLG 8
+
+ITM 4
+00000000
+00000000
+00111100
+01111110
+01111110
+01111110
+00111100
+00011000
+NAME strawberry
+DLG 9
+
+ITM 5
+00000000
+00000000
+00111100
+01111110
+00000000
+01111110
+00111100
+00000000
+NAME Macroons
+
+ITM 6
+11111111
+11111111
+01000010
+01000010
+11111111
+10000001
+10000001
+11111111
+NAME Frog Fish(collectable)
+DLG a
+
+ITM 7
+00000000
+00000000
+10001110
+11011111
+11111111
+11011111
+10001110
+00000000
+NAME Frog Fish
+DLG m
+
+ITM 9
+11111111
+11111111
+01001010
+01011010
+11111111
+10000001
+10000001
+11111111
+NAME Macroon(Collectable)
+DLG b
+
+ITM b
+11111111
+11111111
+01001010
+01001010
+11111111
+10000001
+10000001
+11111111
+NAME Strawberry(collectable)
+DLG c
+
+ITM c
+11111111
+11111111
+01100010
+01100010
+11111111
+10000001
+10000001
+11111111
+NAME Mayloomruns (collectiable)
+DLG d
+
+ITM d
+11110000
+10000000
+10000000
+11110000
+10000000
+10000000
+10000000
+11110000
+NAME e
+
+ITM e
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+11111111
+NAME l
+
+ITM f
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+NAME i
+
+ITM g
+00000000
+01111000
+10000100
+10000100
+10000100
+10000100
+01111010
+00000001
+NAME a
+
+ITM h
+11110000
+10001000
+10001000
+11110000
+11110000
+10001000
+10001000
+11110000
+NAME b
+
+ITM i
+00000000
+00100100
+01100110
+01111110
+01011010
+01111110
+01100110
+00111100
+DLG v
+
+DLG 0
+I'm a cat
+NAME cat dialog
+
+DLG 3
+"""
+{cycle
+  - I would talk to the droid at the main entrance if I were you!
+  - Then I would take the next doorway!
+  - 
+}
+"""
+NAME sprite b dialog
+
+DLG 4
+You were tired from all the traveling and took a break to drink some tea
+NAME tea dialog
+
+DLG 6
+"""
+{
+  - {item "c"} >= 1 ?
+    {
+      - {item "b"} >= 1 ?
+        {
+          - {item "9"} >= 1 ?
+            {
+              - {item "6"} >= 1 ?
+                {cycle
+                  - I see you have explored the Fruit Market! 
+                  - Congrats, you're adventure awaits you!
+                }
+            }
+        }
+    }
+  - {item "6"} == 0 ?
+    {sequence
+      - Hello Stranger!!!
+      - What made you come here today?
+      -   If you're ever interesting in buying any food. 
+        Take the road back to the food market. 
+        They have the best foods yet in this planet!
+    }
+}
+"""
+NAME SOILDER dialog
+
+DLG 7
+Without a mayroon fruit, you're not allowed.{item "3" 0}{property locked true}{property locked false}
+NAME sprite d dialog
+
+DLG 8
+MAYLOONRUN
+NAME item 3 dialog
+
+DLG 9
+Im a strawberry
+NAME strawberry dialog
+
+DLG 10
+{tea = tea + 1}you've interacted a total of{say tea}times...
+NAME tea
+
+DLG a
+You bought a Frog Fish
+NAME Frog Fish(collectable) dialog
+
+DLG b
+You bought a macaroon!
+NAME Macaroon(Collectable)
+
+DLG c
+You bought a strawberry!
+NAME Strawberry(collectable) dialog
+
+DLG d
+You bought a meiloorun fruit!
+NAME meiloorun (collectiable) dialog
+
+DLG e
+"""
+{item "c" 0}... I need a maylurun
+{property locked true}{item "c" {{item "c"} + 1}}
+"""
+NAME chara: maylurun dialog
+
+DLG f
+"""
+{
+  - {item "6"} >= 1 ?
+    {
+      - {item "9"} >= 1 ?
+        {
+          - {item "b"} >= 1 ?
+            {
+              - {item "c"} >= 1 ?
+                {property locked false}
+            }
+        }
+    }
+  - else ?
+    {property locked true}You need 4 items: 
+    Frog Fish
+    Macaroon
+    Strawberry
+    Mayluruns
+}
+"""
+NAME locked exit 1
+
+DLG g
+Entering
+NAME Entering/exiting entrance
+
+DLG h
+Exiting
+NAME exit narration 1
+
+DLG i
+Going back to the entrance?
+NAME exit narration 2
+
+DLG j
+You're getting closer
+NAME exit narration 3
+
+DLG k
+Glad you decided to come back!
+NAME exit narration 4
+
+DLG l
+Are you abandoning your mission?
+NAME exit narration 5
+
+DLG m
+You bought a Frog Fish!
+NAME Frog Fish dialog
+
+DLG n
+Now lets make this mission count!
+NAME exit narration 6
+
+DLG o
+You entered the fruit shop!
+NAME exit narration 7
+
+DLG p
+"""
+{cycle
+  - talk with each droid in order to have access to the door way.
+    If Confused were to find the fruit, ask the droid at the entrance...
+}
+"""
+NAME helper 3 dialog
+
+DLG q
+"""
+{
+  - {item "6"} < 1 ?
+    You need a Frog Fish to enter
+  - else ?
+    {sequence
+      - Lets gooo!
+        You got me a frog fish!
+      - Now Find the other items my fellow droids like in order to access this secret entrance...
+    }
+}
+"""
+NAME Frog Chara dialog
+
+DLG r
+"""
+{
+  - {item "b"} < 1 ?
+    You need a Strawberry to enter
+  - else ?
+    {sequence
+      - Lets gooo!
+        You got me a Strawberry!
+      - Now Find the other items my fellow droids like in order to access this secret entrance...
+    }
+}
+"""
+NAME Starw Chara Dialog
+
+DLG s
+"""
+{
+  - {item "c"} < 1 ?
+    You need a meilurun to enter
+  - else ?
+    {sequence
+      - Lets gooo!
+        You got me a meilurun!
+      - Now Find the other items my fellow droids like in order to access this secret entrance...
+    }
+}
+"""
+NAME meil chara dialog
+
+DLG t
+"""
+{
+  - {item "9"} < 1 ?
+    You need a macroon to enter
+  - else ?
+    {sequence
+      - Lets gooo!
+        You got me a macaroon!
+      - Now Find the other items my fellow droids like in order to access this secret entrance...
+    }
+}
+"""
+NAME maca chara dialog
+
+DLG u
+You walk through the doorway
+NAME exit narration 8
+
+DLG v
+"""
+You've obtained the asset and you realized its just a child.
+You decided to not terminate the Child 
+and instead ran away with it.
+
+ ESCAPEEEEE!!!!!!!
+
+"""
+NAME item i dialog
+
+DLG w
+"""
+You have successfully escaped!
+The child is now safe from the Empire and is now your child!
+"""
+NAME ending 1
+
+DLG x
+"""
+{cycle
+  - Whenever you see me I'll be your assistant helper for guiding your mission...
+  - I would take the next door way If I were you!
+  - 
+}
+"""
+NAME helper 1
+
+DLG y
+
+NAME helper 2 dialog
+
+DLG z
+"""
+Damn, I must admit, I thought you wouldn't be able to find me...
+
+I would talk to the droid at the entrance if you haven't already, then I would take the next door way!
+"""
+NAME helper 2 dialog
+
+VAR tea
+0
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,l,m,l,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+>
+2E5,0,2G,0,2G5,0,2G,0,2F#5,0,2E5,0,2D5,0,2C5,0
+2C3,0,2E,0,2E5,0,2C,0,2A3,0,2C,0,2F#,0,2E,0
+>
+3B,0,0,0,2E5,0,D5,0,4A,0,0,0,G,0,0,0
+2G3,0,B3,0,2D,0,D3,0,2C3,0,G3,0,D#,0,0,0
+>
+0,0,2G,0,A,0,2B,0,C5,0,B,C5,A,0,G,0
+A2,0,A3,0,C,0,2D,0,D#,0,D,E,C,0,C3,0
+>
+8B,0,0,0,0,0,0,0,A,0,2F#,0,E,0,D,0
+D3,0,A3,0,F#,0,D,0,C,0,2D3,0,C3,0,F#3,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+>
+4C#5,0,0,0,0,0,2C#5,0,3C#5,0,0,D#5,0,0,2C#5,0
+F#2,C#,F#3,A#3,0,F#3,C#3,F#3,F#2,A,F#3,C#,0,F#3,A3,F#3
+>
+3C#5,0,0,F,3C5,0,0,C,3C5,0,0,D#,3A#,0,0,0
+F2,D#3,A3,0,0,F3,C#,0,F#2,A#3,D#3,0,0,F#3,C#,C
+>
+3A#,0,0,0,C5,0,C#5,0,A#,0,C#,D#,G#,G#3,0,C#3
+C3,A#3,C,E,A,0,A#,0,0,B2,B3,0,2F,0,0,0
+>
+A#,0,A#3,0,C#,0,F,0,A#,0,0,0,0,0,0,0
+A#2,0,C#3,0,F3,0,A#3,0,D,0,0,0,0,F#3,0,F3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+TUNE 4
+d5,l,s,m,r,d,r2,d,r,s,r,r2,d5,l,s,m
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,m,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16d3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+KEY C,D,D#,F,G,G#,A# d,r,m,s,l
+TMP MED
+SQR P4 P2
+ARP INT8
+
+TUNE 5
+3s,0,0,d5,0,s,2r,0,m,2d,0,r,m,s,l,d5
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3s2,0,0,d2,0,s3,2r3,0,m3,2d3,0,r3,m3,s3,l3,d3
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP SLW
+SQR P4 P8
+ARP DWN
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
